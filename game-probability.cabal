@@ -74,7 +74,10 @@ Library
                        Numeric.Probability.Game.Query
   
   -- Packages needed in order to build this package.
-  Build-depends:       base >= 4 && < 5, probability == 0.2.*, random == 1.*, containers >= 0.2 && < 0.6
+  Build-depends:       base >= 4 && < 5
+                     , probability == 0.2.*
+                     , random == 1.*
+                     , containers >= 0.2 && < 0.6
 
   Extensions:          GeneralizedNewtypeDeriving FlexibleInstances ScopedTypeVariables
 
